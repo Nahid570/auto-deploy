@@ -14,6 +14,7 @@ const App = () => {
   return (
     <div className="container">
       <h1>Testing Electron Auto Update</h1>
+      <h2>New Feature One</h2>
       {isUpdateAvailable && (
         <div className="update-card">
           <p className="version-txt">A new version of the app available</p>
