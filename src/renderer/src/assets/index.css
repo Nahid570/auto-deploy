@@ -1,0 +1,57 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  height: 100vh;
+  width: 100%;
+}
+.container {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.update-card {
+  background: gray;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  padding: 10px;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  z-index: 100;
+  transition: all 1s ease-in;
+}
+.version-txt {
+  font-size: 18px;
+  font-weight: bold;
+  color: greenyellow;
+}
+.btn-container {
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+}
+.update-btn {
+  padding: 5px;
+  cursor: pointer;
+  border: 1px solid white;
+  outline: none;
+  background: gainsboro;
+  font-weight: bold;
+  color: green;
+}
+.later-btn {
+  padding: 5px;
+  cursor: pointer;
+  border: 1px solid white;
+  outline: none;
+  background: rgba(220, 220, 220, 0.384);
+  font-weight: bold;
+  color: green;
+}
